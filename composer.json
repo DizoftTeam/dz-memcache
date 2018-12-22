@@ -1,0 +1,23 @@
+{
+  "name": "dz/memcache",
+  "description": "Component for work with MemCache for yii2",
+  "type": "library",
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "WiRight",
+      "email": "ruslan.mahin1@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "dz\\memcache\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.1.0",
+    "yiisoft/yii2": "2.0.15.1",
+    "yiisoft/yii2-httpclient": "2.0.7"
+  }
+}
